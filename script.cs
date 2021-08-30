@@ -20,7 +20,7 @@ public class script : MonoBehaviour
     {
         VarSumadaDisplay.text = "" + Mathf.Round(VarSumada);
     }
-    public void ClickChocolate()
+    public void ClickVarSum()
     {
         VarSumada += 1;
         PlayerPrefs.SetFloat("VarSumada", VarSumada);
